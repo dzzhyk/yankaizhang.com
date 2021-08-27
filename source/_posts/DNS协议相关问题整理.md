@@ -17,7 +17,7 @@ tags:
 
 
 
-# DNS使用到的协议和端口
+## DNS使用到的协议和端口
 
 DNS同时占用UDP和TCP的53号端口；DNS在进行区域传输的时候使用TCP协议，其它时候则使用UDP协议； 
 
@@ -36,7 +36,7 @@ DNS的规范规定了2种类型的DNS服务器，一个叫主DNS服务器，一�
 
 
 
-# DNS服务器分类
+## DNS服务器分类
 
 1. 根域名服务器
 2. 顶级域名服务器
@@ -45,7 +45,7 @@ DNS的规范规定了2种类型的DNS服务器，一个叫主DNS服务器，一�
 
 
 
-# DNS记录类型
+## DNS记录类型
 
 笔者从阿里云截图得到的：
 
@@ -53,7 +53,7 @@ DNS的规范规定了2种类型的DNS服务器，一个叫主DNS服务器，一�
 
 
 
-# DNS协议解析方式
+## DNS协议解析方式
 
 1. **递归查询**：主机向本地域名服务器器的查询
 
@@ -68,7 +68,7 @@ DNS的规范规定了2种类型的DNS服务器，一个叫主DNS服务器，一�
 
 
 
-# DNS解析过程
+## DNS解析过程
 
 1）首先搜索**浏览器的 DNS 缓存**，缓存中维护一张域名与 IP 地址的对应表；
 
@@ -92,7 +92,7 @@ DNS的规范规定了2种类型的DNS服务器，一个叫主DNS服务器，一�
 
 
 
-# DNS域名缓存
+## DNS域名缓存
 
 为了提高DNS查询效率，并减少因特网上的DNS查询保存数量，在DNS域名服务器中使用了高速缓存，用来存放最近查询过的域名以及从何处获得域名映射信息的记录。
 
@@ -103,7 +103,7 @@ DNS的规范规定了2种类型的DNS服务器，一个叫主DNS服务器，一�
 
 
 
-# DNS协议故障原因
+## DNS协议故障原因
 
 - DNS服务器自身出现问题
 - 域名受到DNS攻击
@@ -112,9 +112,9 @@ DNS的规范规定了2种类型的DNS服务器，一个叫主DNS服务器，一�
 
 
 
-# 常用的DNS协议工具
+## 常用的DNS协议工具
 
-## nslookup
+### nslookup
 
 nslookup全称是"query Internet name server interactively"，主要用来查询DNS。
 
@@ -122,7 +122,7 @@ mac下自带了这个工具：
 
 <img src="https://gitee.com/dzzhyk/MarkdownPics/raw/master/image-20210827223648429.png" alt="nslookup工具" style="zoom:50%;" />
 
-### 直接查询域名ip
+#### 直接查询域名ip
 
 ```shell
 $ nslookup
@@ -137,7 +137,7 @@ Address: 46.82.174.69
 
 
 
-### 连接指定DNS服务器查询域名ip
+#### 连接指定DNS服务器查询域名ip
 
 ```shell
 $ nslookup
@@ -156,7 +156,7 @@ Address: 59.24.3.174
 
 
 
-### 查看DNS配置信息
+#### 查看DNS配置信息
 
 ```shell
 $ nslookup
@@ -252,7 +252,7 @@ response.
 
 
 
-## dig
+### dig
 
 dig工具是用于查询DNS记录的工具，功能比nslookup更加强大，mac下自带了这个工具：
 
@@ -351,7 +351,7 @@ dig有意思的玩法：
 
 
 
-## host
+### host
 
 host工具也是mac自带的一个DNS查询工具，其功能和输入输出和dig差不多，参数操作方式有所不同
 
@@ -380,7 +380,7 @@ Received 119 bytes from 192.168.1.1#53 in 207 ms
 
 
 
-# 文章参考
+## 参考
 [https://segmentfault.com/a/1190000039039275](https://segmentfault.com/a/1190000039039275)
 
 [https://www.cnblogs.com/549294286/p/5172435.html](https://www.cnblogs.com/549294286/p/5172435.html)

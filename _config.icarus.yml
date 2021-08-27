@@ -8,9 +8,6 @@ head:
     manifest:
         name: 听风合笙博客
         short_name: yankai's blog
-        start_url: https://yankaizhang.com
-        theme_color:
-        background_color:
         display: standalone
     meta:
         # Meta tag specified in <attribute>=<value> style
@@ -23,7 +20,7 @@ navbar:
         主页: /
         分类: /categories
         标签: /tags
-        文章归档: /archives
+        文章列表: /archives
     links:
         Download on GitHub:
             icon: fab fa-github
@@ -62,16 +59,9 @@ sidebar:
     right:
         sticky: false
 
-widgets:
-    -
-        position: left
-        type: toc
-        index: true
-        collapsed: true
-        depth: 5
-    -
-        position: left
-        type: recent_posts
+
+widgets: null
+
 
 # 插件配置
 plugins:
