@@ -12,7 +12,7 @@ head:
     meta:
         # Meta tag specified in <attribute>=<value> style
         # E.g., name=theme-color;content=#123456 => <meta name="theme-color" content="#123456">
-        - ''
+        - ""
 
 # 页面头部配置
 navbar:
@@ -24,13 +24,13 @@ navbar:
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: 'https://github.com/dzzhyk'
+            url: "https://github.com/dzzhyk"
 
 # 页面底部配置
 footer:
     links:
         渝ICP备20009371号-1:
-            url: 'http://beian.miit.gov.cn/'
+            url: "http://beian.miit.gov.cn/"
 
 # 文章配置
 article:
@@ -42,13 +42,13 @@ article:
     licenses:
         Creative Commons:
             icon: fab fa-creative-commons
-            url: 'https://creativecommons.org/'
+            url: "https://creativecommons.org/"
         Attribution:
             icon: fab fa-creative-commons-by
-            url: 'https://creativecommons.org/licenses/by/4.0/'
+            url: "https://creativecommons.org/licenses/by/4.0/"
         Noncommercial:
             icon: fab fa-creative-commons-nc
-            url: 'https://creativecommons.org/licenses/by-nc/4.0/'
+            url: "https://creativecommons.org/licenses/by-nc/4.0/"
 
 search:
     type: insight
@@ -59,9 +59,7 @@ sidebar:
     right:
         sticky: false
 
-
 widgets: null
-
 
 # 插件配置
 plugins:
@@ -71,14 +69,14 @@ plugins:
     # https://tongji.baidu.com
     baidu_analytics:
         # Baidu Analytics tracking ID
-        tracking_id:
+        tracking_id: 7fcd38d5517d90f8436b1e190a0a4055
     # CNZZ statistics
     # https://www.umeng.com/web
     cnzz:
         # CNZZ tracker id
-        id:
+        id: 1280271894
         # CNZZ website id
-        web_id:
+        web_id: 1280271894
     gallery: true
     # Google Analytics plugin settings
     # https://analytics.google.com
