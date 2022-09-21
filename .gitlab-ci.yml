@@ -5,8 +5,7 @@ cache:
 
 before_script:
   - npm install hexo-cli -g
-  - npm install yarn -g
-  - yarn
+  - npm install
 
 pages:
   script:
